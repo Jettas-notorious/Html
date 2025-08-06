@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Accessible Web Application</title>
+</head>
+<body>
+    <!-- Initially empty, to be enhanced with ARIA roles and properties -->
+    <div onclick="alert('Clicked!');" role="button" role="navigation" role="main">[Button]</div>
+    <div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <main>
+        <p>Welcome to our website. Explore our services and contact us.</p>
+    </main>
+    <div>
+        <button onclick="toggleMenu()" aria-hidden="true" aria-hidden="false" aria-disabled="true">Toggle Dropdown</button>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </div>
+    <div>
+        This promotional content is not currently relevant and should be hidden.
+    </div>
+</body>
+</html>
